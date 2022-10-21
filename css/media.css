@@ -1,0 +1,350 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+     header {
+         padding: 5px 0;
+     }
+
+     .c_menu ul li a {
+         margin-bottom: 5px;
+         padding: 0 13px !important;
+     }
+
+     .c_logo {
+         width: 170px;
+     }
+     /* banner starts */
+     .banner {
+        padding: 15px 0 60px;
+    }
+
+   
+    .b_text {
+        text-align: center;
+    }
+
+    .b_h1 {
+        margin: 10px 0 10px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .b_p2 {
+        /* padding: 0 55px; */
+        line-height: 30px;
+    }
+
+    .b_img {
+        margin-bottom: 25px;
+        padding: 0 10px;
+    }
+     /* banner ends */
+
+  /* feature start */
+  .feature{
+       
+    padding-bottom: 70;
+}
+ .s_feature{
+ margin-top: 24px;
+ padding: 45px 23px;
+}
+.f_h2{
+    font-size: 22px;
+    }
+ /* feature end */
+
+  /* courses starts*/
+  .courses{
+    padding-bottom: 70px;
+ }
+ .c_h1{
+     font-size: 30px;
+     line-height: 45px;
+ }
+ .c_item{
+    margin-top: 30px;
+    padding: 15px 15px 20px;
+ }
+ .c_h2{
+    font-size: 20px;
+ }
+
+ .calender ul li span, .people ul li span {
+    font-weight: 400;       
+    font-size: 13px;
+}
+.c_li{
+    margin-right: 0 !important;
+}
+ /* courses ends*/
+ /* testimoy starts */
+ .t_img {
+    margin-right: 0;
+    padding-bottom: 22px;
+}
+
+.t_pad {
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+.t_p{
+    text-align: start!important;
+    line-height: 21px;
+    font-size: 12px;
+}
+ /* testimoy ends */
+ /* footer-top starts */
+ .footer_top {
+    padding-bottom: 18px;
+}
+.f_a{
+    text-align: center;
+}
+ .f_text {
+    margin-top: 26px;
+}
+   
+     .f_a{
+        text-align: center!important;
+       }
+      
+ /* footer-top ends */
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .c_menu ul li a {
+         margin-bottom: 5px;
+         padding: 0 13px !important;
+     }
+
+     /* banner starts */
+     .banner {
+        padding: 15px 0 60px;
+    }
+
+   
+    .b_text {
+        text-align: center;
+    }
+
+    .b_h1 {
+        margin: 10px 0 10px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .b_p2 {
+        padding: 0 55px;
+        line-height: 30px;
+    }
+
+    .b_img {
+        margin-bottom: 30px;
+        padding: 0 80px;
+    }
+     /* banner ends */
+
+      /* feature start */
+      .feature{
+       
+        padding-bottom: 70;
+    }
+     .s_feature{
+     margin-top: 24px;
+     padding: 45px 23px;
+    }
+   
+     /* feature end */
+
+     /* courses starts*/
+     .courses{
+        padding-bottom: 70px;
+     }
+     .c_h1{
+         font-size: 30px;
+         line-height: 45px;
+     }
+     .c_item{
+        margin-top: 30px;
+        padding: 15px 15px 20px;
+     }
+     .c_h2{
+        font-size: 20px;
+     }
+     .c_pad{
+        padding: 0 100px;
+     }
+     .calender ul li span, .people ul li span {
+        font-weight: 400;       
+        font-size: 13px;
+    }
+    .c_li{
+        margin-right: 0 !important;
+    }
+     /* courses endss*/
+
+     /* testimoy starts */
+     .t_pad {
+        margin-top: 30px;
+        padding-bottom: 60px;
+    }
+     .t_img {
+        margin-right: 0;
+        padding-bottom: 22px;
+     }
+
+     .t_p{
+       
+        line-height: 24px;
+    }
+     /* testimoy ends */
+     /* footer top starts */
+     .f_a{
+         text-align: center;
+        }
+        /* footer top ends */
+ }
+
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+   
+     /* banner starts */
+     .banner {
+         padding: 15px 0 60px;
+     }
+
+     /* banner ends */
+     .b_text {
+         text-align: center;
+     }
+
+     .b_h1 {
+         margin: 10px 0 10px;
+         font-size: 38px;
+         line-height: 50px;
+     }
+
+     .b_p2 {
+         line-height: 30px;
+     }
+
+     .b_img {
+         margin-bottom: 50px;
+         padding: 0 150px;
+     }
+     /* feature start */
+     .feature{
+       
+        padding-bottom: 80;
+    }
+     .s_feature{
+     margin-top: 24px;
+    }
+     /* feature end */
+
+     /* courses starts*/
+     .courses{
+        padding-bottom: 80px;
+     }
+     .c_item{
+        margin-top: 40px;
+        padding: 25px 45px 30px;
+     }
+     .c_pad{
+        padding: 0 150px;
+     }
+     /* courses endss*/
+
+/* testimoy starts */
+.t_p{
+    text-align: start!important;
+    line-height: 24px;
+}
+/* testimoy ends */
+ }
+
+ /* footer top starts */
+ .footer_top{
+    padding-bottom: 80px;
+ }
+ .f_a{
+    /* text-align: center !important; */
+}
+ .f_text p{
+    margin-bottom: 0;
+  }
+ /* footer top ends */
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    /* feature starts*/
+    .s_feature{   
+      
+        min-height: 230px;
+       
+        padding: 35px 15px;
+      
+    }
+    /* feature end */
+    /* courses starts */
+    .c_item{
+        padding: 20px 18px 25px;
+    }
+    .f_h2 {
+        font-size: 19px;
+    }
+    .c_li{
+        margin-right: -1px !important;
+    }
+
+    .calender ul li img{
+        width: 22px;
+    }
+    .calender ul li span, .people ul li span {
+        font-weight: 400;       
+        font-size: 14px;
+    }
+
+    /* courses ends */
+ }
+
+ /* Large devices (desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* courses starts */
+    .f_h2 {
+        font-size: 19px;
+    }
+    .c_li{
+        margin-right: 0 !important;
+    }
+    /* courses ends */
+ }
+
+ /* Large devices (desktops, 1400px and up) */
+ @media (min-width: 1400px) and (max-width: 1699.98px) {
+
+     /* feature start */
+     .s_feature {
+         padding: 72px 20px;
+     }
+
+     /* feature end */
+
+ }
+
+ /* Large devices (desktops, 1700px and up) */
+ @media (min-width: 1700px) and (max-width: 1999.98px) {
+     .box {
+
+         background-color: rgb(4, 84, 231);
+     }
+ }
+
+ /* Extra large devices (large desktops, 20000px and up) */
+ @media (min-width: 2000px) {
+     ...
+ }

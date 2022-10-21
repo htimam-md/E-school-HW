@@ -1,0 +1,287 @@
+/* common start */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* common end */
+
+
+/* header start */
+header {
+    /* border: 1px solid red; */
+    background-color: #F0FFF0;
+    padding: 4px 0;
+}
+
+.c_nav {
+    /* border: 1px solid green; */
+}
+
+.c_logo {}
+
+.c_menu ul li a {
+    /* border: 1px solid red; */
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000 !important;
+    line-height: 24px;
+    padding: 0 25px !important;
+
+}
+
+.c_menu ul li a:hover {
+    color: #FD511A !important;
+}
+
+.c_butcom {
+    /* width: 48px;
+        height: 19px; */
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #21B573;
+    border-radius: 33px;
+    /* identical to box height */
+}
+
+.c_buhead {
+    margin-left: 4px;
+    width: 104px;
+    height: 43px;
+    padding: 10px 25px;
+}
+
+.c_butcom:hover {
+    background-color: #fd511a !important;
+    /* color:#FD511A !important ; */
+}
+
+/* banner starts */
+.banner {
+    background-color: #F0FFF0;
+    padding: 30px 0 60px;
+}
+
+.b_text {}
+
+.b_p1 {
+    line-height: 24px;
+    color: #FD511A
+}
+
+.b_h1 {
+    margin-top: 10px;
+    margin-bottom: 19px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.b_h1 span {
+
+    color: #21B573
+}
+
+.b_p2 {
+    line-height: 36px;
+}
+
+.b_btn {
+    margin-top: 14px;
+    width: 153px;
+    height: 43px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    padding: 12px 35px;
+}
+
+.b_img {}
+
+.b_img img {}
+
+/* banner ends */
+
+/* features start */
+
+.feature {
+    margin: 21px 0 100px 0;
+}
+
+.s_feature {
+    width: 100%;
+    min-height: 270px;
+    background-color: #b6e6cb;
+    border-radius: 10px;
+    padding: 55px 55px;
+    transition: .33s;
+}
+
+.s_feature:hover {
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    background-color: #FFFFFF;
+
+
+}
+
+.f_img {
+    margin-bottom: 22px;
+}
+
+.f_img img {}
+
+.f_h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.f_p {
+    line-height: 24px;
+}
+
+/* features ends */
+
+.courses {
+    padding-bottom: 100px;
+}
+
+.c_title {}
+
+.c_h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.c_item {
+    margin-top: 60px;
+    padding: 25px 20px 30px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.c_img {}
+
+.c_img img {}
+
+.c_h2 {
+    margin: 18px 0 3px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.c_p {
+    line-height: 24px;
+}
+
+.c_btn {
+    margin: 20px 0 35px;
+    width: 137px;
+    height: 35px;
+    padding: 8px 25px;
+}
+
+.c_footer {}
+
+.c_calender {}
+
+.calender ul li img {
+    width: 24px;
+}
+
+.calender ul li span,
+.people ul li span {
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* course ends */
+
+/* testimoy starts */
+.t_img {
+    margin-right: 50px;
+    padding-bottom: 22px;
+}
+
+.t_p {
+    /* margin-bottom: 0!important; */
+    line-height: 30px;
+
+}
+
+.t_pad {
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+
+/* testimoy ends */
+
+/* footer top starts*/
+.footer_top {
+
+    padding-bottom: 100px;
+
+    background-color: #282531;
+}
+.f_a{
+    text-align: start!important;
+}
+.f_text {
+    margin-top: 55px;
+    color: #FFFFFF;
+}
+
+.f_text p {
+    margin-bottom: 0;
+}
+
+.f_text ul {
+    padding: 0;
+
+}
+
+.f_text ul li {
+    list-style-type: none !important;
+    text-decoration: none !important;
+
+}
+
+.f_text ul li a {
+    color: #FFFFFF;
+    text-decoration: none !important;
+
+
+}
+
+.f_text h2 {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* footer top ends */
+/* footer starts */
+footer {
+    margin-top: -3px;
+    color: #CDCDCD;
+    text-align: center;
+    background-color: #282531;
+    padding-bottom: 25px;
+}
+.footer_top {
+    padding-bottom: 22px!important;
+}
+.f_text {
+    margin-top: 18px !important;
+}
+/* footer ends */
